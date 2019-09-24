@@ -1,0 +1,89 @@
+body{
+	font-family: "Quicksand", sans-serif;
+	background-image: url("/Users/jalinparker/Desktop/si539/umsi-webdesign-master/week_3_cssadv/HomeworkThree/images/pidgeon-background.jpg");
+	background-repeat: no-repeat;
+	background-color: #dddddd;
+}
+
+h1{
+	font-size: 2em;
+	line-height: 1.5em;
+	color: #c12258;
+}
+
+p{
+	font-size: 18px;
+	color: black;
+	padding-top: 15px
+}
+
+a{
+	font-size: 18px;
+	color: #c12258;
+	text-decoration: underline;
+}
+
+a:focus{
+	outline: none;
+	border: 1px solid red;
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: separate;
+	border-radius: 10px;
+	border-spacing: 0;
+	border-bottom: none;
+}
+
+thead th{
+	column-width: 150px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #7e0830;	
+}
+
+tr th{
+	border-bottom: 2px solid black;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child th:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+tbody td{
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 15px;
+}
+
+table tr:hover{
+	background-color: #fab9cf;
+}
+
+tr:nth-child(even){
+	background-color: #dddddd;
+}
+
+footer p{
+	position: static;
+	min-height: 60px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
