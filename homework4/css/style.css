@@ -147,7 +147,7 @@ header p{
 
 .clients-image{
   background-image: url("../images/clients.jpg");
-  grid-column: 2/-1;
+  grid-column: 1/-1;
   grid-row: 5/auto;
   max-height: 700px;
   overflow: hidden;
