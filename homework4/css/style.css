@@ -159,7 +159,7 @@ header p{
 }
 
 .contact-image{
-  background-image: url("../images/clients.jpg");
+  background-image: url("../images/contact.jpg");
   grid-column: 1/-1;
   grid-row: 6/auto;
   max-height: 700px;
